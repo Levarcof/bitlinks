@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React from 'react'
 import { useState } from 'react'
 
-const page = () => {
+const Page = () => {
   const [url, setUrl] = useState("")
   const [shorturl, setShorturl] = useState("")
   const [Generate, setGenerate] = useState("")
